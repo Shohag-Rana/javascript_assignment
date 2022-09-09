@@ -1,0 +1,52 @@
+.navbar {
+    padding: 10px;
+    background-color: rgb(66, 66, 212);
+    width: 100%;
+}
+
+.navbar-image {
+    height: 35px;
+    width: 35px;
+    float: left;
+}
+
+.navbar-brand {
+    color: white;
+    padding: 0px;
+    margin: 0px 20px;
+}
+
+.navlist {
+    padding: 10px 12px 32px 38px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+ul li {
+    float: left;
+    display: block;
+
+}
+
+ul li a {
+    padding: 15px 15px;
+    text-decoration: none;
+    color: white;
+}
+
+ul li a:hover {
+    color: red;
+    text-decoration: none;
+} 
+
+.button-vacation {
+background-color: green;
+border-radius: 15px;
+padding: 5px 37px;
+margin-top: -5px;
+margin-left: 25px;
+}

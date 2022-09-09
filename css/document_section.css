@@ -1,0 +1,24 @@
+.blog-image{
+    height:270px;
+    width: 265px;
+    margin-top: -50px;
+}
+.heading-text-info{
+    margin-left: -50px; padding: 0;
+}
+.writer-text{
+    font-size: 15px;margin-left: -50px; margin-bottom: 15px;
+}
+.staff-writer p{
+    margin-bottom: 0px !important;
+}
+ 
+.category-list{
+    color: green;
+    font-size: 18px;
+    margin: 5px !important;
+    letter-spacing: 0.2px;
+}
+ 
+
+ 

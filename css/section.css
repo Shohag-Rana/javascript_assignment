@@ -1,0 +1,69 @@
+
+.section{
+    background-image: url("../images/section_background_image5.jpg");
+    height: 330px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.8;
+    animation-name: section_anim;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+}
+
+.section-paragraph{
+    padding-top: 80px;
+    font-size: 22px;
+}
+.search-box{
+    text-align: center;
+    margin-top: 30px;
+}
+input[type=search]{
+    padding: 6px 35px;
+    border-radius: 10px;
+    border: none !important;
+    width: 450px;
+}
+.search-icon{
+    color: rgb(88, 69, 69);
+    margin-top: -30px;
+    margin-left: -410px;
+    font-size: 17px;
+}
+ 
+.writer-content{
+    font-size: 19px;
+    font-weight: 400;
+    text-align: justify;
+}
+#post-details .row{
+    border: 10px solid gray;
+
+}
+.pagination li:hover{
+    background-color: green;
+    color: rgb(250, 2, 2);
+}
+.post_details{
+    margin-bottom: 50px;
+    position: relative;
+}
+.extra-image{
+    position: absolute;
+    padding: 100px;
+    color:brown;
+    display: none;
+    height:270px;
+    width: 265px;
+    margin-top: -50px;
+    font-size: 20px;
+}
+.post_details:hover .extra-image{
+    display: block;
+    background-color: rgb(104, 221, 104);
+    color: red;
+}
+.post_details a{
+    text-decoration: none;
+}

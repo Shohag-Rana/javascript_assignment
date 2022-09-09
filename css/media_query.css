@@ -1,0 +1,250 @@
+@media only screen and (max-width: 600px) {
+    .navbar {
+        padding: 20px 10px 15px 10px;
+        text-align: center;
+    }
+    .navbar-brand{
+        text-align: center;
+    }
+
+    .button-vacation {
+        margin: 14px 0px 0px 0px;
+        padding: 5px;
+        text-align: center;
+    }
+
+    .navlist {
+        padding: 10px 12px 32px 110px;
+    }
+
+    ul li {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    input[type=search] {
+        padding: 6px 25px;
+        border-radius: 10px;
+        border: none !important;
+        width: 280px;
+    }
+
+    .search-icon {
+        margin-left: -250px;
+        font-size: 17px;
+    }
+
+    .section {
+        height: 380px;
+    }
+    .staff-writer{
+        margin-top: 15px;
+    }
+    .beach_category_section{
+        margin-top: -40px;
+    }
+    .sea-content {
+        padding: 0px 25px 0px 67px;
+        margin-top: 13px;
+    }
+    .blog-image{
+        width: 100%;
+        height: 300px;
+    }
+    .extra-image{
+        padding: 140px 200px;
+        height:300px;
+        width: 100%;
+    }
+    .footer {
+        text-align: center;
+    }
+
+    .icon {
+        text-align: center;
+        width: 100%;
+        padding: 0px !important;
+    }
+
+    .privacy-policy {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .copy-right {
+        text-align: center;
+    }
+
+    .copy-right p {
+        float: none !important;
+    }
+
+    .staff-writer {
+        padding: 20px;
+    }
+
+    .footer {
+        margin-top: 30px !important;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media screen and (min-width: 601px) and (max-width: 767px) {
+    .navbar {
+        padding: 20px 10px 15px 10px;
+        text-align: center;
+    }
+    .navbar-brand{
+        text-align: center;
+    }
+
+    .button-vacation {
+       text-align: center;
+       margin-left: 165px !important;
+       margin-top: 10px !important;
+    }
+
+    .navlist {
+        padding: 10px 12px 32px 110px;
+    }
+
+    ul li {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    input[type=search] {
+        padding: 6px 25px;
+        border-radius: 10px;
+        border: none !important;
+        width: 280px;
+    }
+
+    .search-icon {
+        margin-left: -250px;
+        font-size: 17px;
+    }
+
+    .sea-content {
+        padding: 0px 25px 0px 67px;
+        margin-top: 13px;
+    }
+    .blog-image{
+        width: 100%;
+        height: 250px;
+    }
+    .extra-image{
+        padding: 140px 250px;
+        height:250px;
+        width: 100%;
+    }
+    .staff-writer{
+        margin-top: 25px;
+    }
+    .beach_category_section{
+        margin-top: -15px;
+    }
+    .footer {
+        text-align: center;
+        margin-top: 30px;
+    }    .icon {
+        text-align: center;
+        width: 100%;
+        padding: 0px !important;
+    }
+
+    .privacy-policy {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .copy-right {
+        text-align: center;
+    }
+
+    .copy-right p {
+        float: none !important;
+    }
+ 
+    .button-vacation{
+        display: block;
+width: 36%;
+margin-top: 33px;
+padding: 2px 8px;
+margin-left: -207px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    .navbar-brand{
+        text-align: center;
+        display: block;
+    }
+    .navlist{
+        text-align: center;
+    }
+   .navlist li{
+        padding-left: 70px;
+    }
+    .button-vacation {
+        padding: 5px 5px;
+      }
+    .sea-content {
+        padding: 0px 65px;
+        margin-top: 15px;
+    }
+    .blog-image{
+        width: 100%;
+        height: 350px;
+    }
+    .extra-image{
+        padding: 140px 250px;
+        height:350px;
+        width: 100%;
+    }
+    .footer {
+        text-align: center;
+        margin-top: 35px;
+    }
+    .staff-writer{
+        margin-top: 25px;
+    }
+    .beach_category_section{
+        margin-top: -15px;
+    }
+    .icon {
+        text-align: center;
+        width: 100%;
+        padding: 0px !important;
+    }
+
+    .privacy-policy {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .copy-right {
+        text-align: center;
+    }
+
+    .copy-right p {
+        float: none !important;
+    }
+    .pagination{
+        padding: 10px !important;
+    }
+}
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+    .blog-image{width: 85%;height: 280px;}
+    .extra-image{
+        padding: 100px ;
+        height:280px;
+        width: 80%;
+    }
+    .button-vacation {padding: 5px 5px;}
+    .footer{
+        margin-top: 0px;
+    }
+}
