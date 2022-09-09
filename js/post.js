@@ -5,7 +5,7 @@ fetch("https://dummyjson.com/products")
     let first_page_products = ""
     for (let i = 0; i < 5; i++) {
       first_page_products += `<div class="col-lg-5 col-sm-12 col-md-12 post_details mt-5 mb-5">
-      <div><span onclick="more_images("${data.products[i].images}")" class="extra-image">More Images</span></div>
+      <div><span class="extra-image">More Images</span></div>
                             <img src="${data.products[i].thumbnail}" class="rounded blog-image shimmer-effect">
                           </div>
                                   <div class="col-lg-7 col-md-12 col-sm-12 sea-content">
@@ -49,7 +49,7 @@ function pagination_function(val) {
       let result = "";
       for (let j = 0; j < 5; j++) { 
         result += `     <div class="col-lg-5 col-sm-12 col-md-12 post_details mt-5">
-                          <div><span onclick="more_images("${data.products[j].images}")" class="extra-image">More Images</span></div>
+                          <div><span class="extra-image">More Images</span></div>
                             <img src="${data.products[j].thumbnail}" class="rounded blog-image shimmer-effect">
                           </div>
                           <div class="col-lg-7 col-md-12 col-sm-12 sea-content">
@@ -76,8 +76,4 @@ function pagination_function(val) {
       document.getElementById("post-details").innerHTML = result;
     }
     )
-}
-
-function more_images(images_list){
-  console.log(images_list)
 }
